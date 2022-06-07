@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+body {
+  background: linear-gradient(
+    90deg,
+    #f1ab5f 0%,
+    #fc9861 6.66%,
+    #ff8d63 14.62%,
+    #ff8065 21.01%,
+    #fe626d 27.94%,
+    #f95172 35.82%,
+    #f23c78 43.73%,
+    #e9247f 50.26%,
+    #de0388 57.46%,
+    #d10093 65.12%,
+    #c1009f 72.58%,
+    #ae00ab 79.05%,
+    #9715b8 85.95%,
+    #7b28c4 92.66%,
+    #5335cf 100%
+  );
+  font-family: 'Rubik';
+  margin: 0px;
+  padding: 0px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
