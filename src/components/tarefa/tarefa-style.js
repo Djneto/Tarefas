@@ -19,6 +19,10 @@ export const Row = styled.div`
         opacity: 0.2;
       `;
   }}
+
+  &:last-child {
+    margin-bottom: 30px;
+  }
 `;
 
 export const Content = styled.div`
